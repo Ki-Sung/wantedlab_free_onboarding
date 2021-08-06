@@ -1,5 +1,6 @@
 # wantedlab Free on Baording Pre_project
 - 데이터 출처: **wantedlab**에서 제공한 **'stock.adj_close.csv'**
+- 제출일: 2021.07.29
 - 작성자: [김기성](https://github.com/Ki-Sung)
 - 컬럼명
   - symbol: 주식 종목코드 (발행체 고유코드)
