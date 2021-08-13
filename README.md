@@ -18,4 +18,5 @@
 ## 2. Week1 수업 및 첫 번째 프로젝트
 - week1
   - 프로그래밍과 파이썬 기본 문법 
-  - 첫 번째 프로젝트 - 유니콘 기업 찾기 
+  - 첫 번째 프로젝트 - 유니콘 기업 찾기
+  - 자세한 내용: [week1 Branch Readme](https://github.com/Ki-Sung/wantedlab_free_onboarding/tree/week1)
