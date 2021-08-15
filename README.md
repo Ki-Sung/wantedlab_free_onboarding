@@ -22,4 +22,5 @@
 - 주제: 원티드 국민연금 DataBase를 이용해서 유니콘 기업 발굴하기 
 - 데이터 출처: 원티드에서 제공한 **'company_nps_data.csv'**
 - 프로젝트 발표일: 2021.08.07
+- 프로젝트 파일: **'team2_week1_analysis.ipynb'**
 - 자세한 내용: [week1 Branch Readme](https://github.com/Ki-Sung/wantedlab_free_onboarding/tree/week1)
