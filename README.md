@@ -16,6 +16,8 @@
 - 사용한 언어: [![Python Badge](http://img.shields.io/badge/-Python%20-blue?style=flat-square&&logoColor=yellow&logo=python&link=https://www.python.org/)](https://www.python.org/) [![Numpy Badge](http://img.shields.io/badge/-Numpy%20-013243?style=flat-square&&logoColor=white&logo=numpy&link=https://numpy.org/)](https://numpy.org/) [![Pandas Badge](http://img.shields.io/badge/-Pandas%20-150458?style=flat-square&logoColor=white&logo=pandas&link=https://pandas.pydata.org/)](https://pandas.pydata.org/) [![Matplotlib Badge](http://img.shields.io/badge/-Matplotlib%20-2350A9?style=flat-square&logoColor=white&logo=matplotlib&link=https://matplotlib.org/)](https://matplotlib.org/) [![Seaborn Badge](http://img.shields.io/badge/-Seaborn%20-212E50?style=flat-square&logoColor=white&logo=seaborn&link=https://seaborn.pydata.org/)](https://seaborn.pydata.org/) 
 
 ## [Team2] 원티드 국민연금 DataBase를 이용해서 유니콘 기업 발굴하기 
+### 분석결과 최종 선정된 유니콘 회사 ID는 **'127366'**, **'132156'**, **'232218'**, **'297175'**, **'470994'**으로 총 5곳 
+
 ### 분석 절차 및 주요 내용 
 ### 1. DB구조 파악 및 Column별 검토
 ### 2. 분석에 필요한 Column 추가 및 데이터 전처리 
@@ -33,4 +35,5 @@
   - 지표 2. 월별 직원수 -> 증감률 기준 후보 기업 추출
   - 지표 3. 인당 연금보험료(평균) -> 증감룰 기준 후보 기업 추출 
 ### 4. 유니콘 기업 최종 선정
+- 분석결과 최종 선정된 유니콘회사 ID는 **'127366'**, **'132156'**, **'232218'**, **'297175'**, **'470994'**
 - (첨부) 최종 유니콘 선정 회사 ID별 그래프 추이 확인
