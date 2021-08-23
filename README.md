@@ -95,6 +95,16 @@
   - **유현준 (팀장)**: 데이터 파악 후 EDA, 전체 Feature간 상관관계 파악, 고객 결제 여부에 따른 특성 비교, 결제여부를 위한 결제비율 지표 산출  
   - **김기성**: 데이터 파악 후 EDA, 자비스앤빌런스 기업조사, 소득 년도별 소득건수와 수수료 결제비율 비교 분석, 상관관계가 있는 Feature들을 위주로 Regression modeling 시도 
   - **정상현**: 데이터 파악 후 EDA, XGB 분류 모델 사용, income 사업 변수 및 소득 데이터 분석, 나이별 데이터로 비교 분석, 두 번쨰 프로젝트 최종 발표 
-  - **최창효**: 데이터 파악 후 EDA, 결제여부 기준으로 고객 분류, income 사업 변수 및 소득 데이터 분석, 
+  - **최창효**: 데이터 파악 후 EDA, 결제여부 기준으로 고객 분류, income 사업 변수 및 소득 데이터 분석
 - 자세한 내용: [week2 Branch README](https://github.com/Ki-Sung/wantedlab_free_onboarding/blob/week2/README.md)
 - 사용한 언어: [![Python Badge](http://img.shields.io/badge/-Python%20-blue?style=flat-square&&logoColor=yellow&logo=python&link=https://www.python.org/)](https://www.python.org/) [![Numpy Badge](http://img.shields.io/badge/-Numpy%20-013243?style=flat-square&&logoColor=white&logo=numpy&link=https://numpy.org/)](https://numpy.org/) [![Pandas Badge](http://img.shields.io/badge/-Pandas%20-150458?style=flat-square&logoColor=white&logo=pandas&link=https://pandas.pydata.org/)](https://pandas.pydata.org/) [![Matplotlib Badge](http://img.shields.io/badge/-Matplotlib%20-2350A9?style=flat-square&logoColor=white&logo=matplotlib&link=https://matplotlib.org/)](https://matplotlib.org/) [![Seaborn Badge](http://img.shields.io/badge/-Seaborn%20-212E50?style=flat-square&logoColor=white&logo=seaborn&link=https://seaborn.pydata.org/)](https://seaborn.pydata.org/) [![Sklearn Badge](http://img.shields.io/badge/-Sklearn%20-F7931E?style=flat-square&logoColor=black&logo=scikit-learn&link=https://scikit-learn.org/stable/)](https://scikit-learn.org/stable/)
+### 프로젝트 과정
+1. EDA - 각 컬럼 파악 
+2. 고객 결제여부에 영향을 미치는 요인과 총 결제금액 합의 개선을 위한 분석 
+3. Income 사업 변수 및 소득 데이터 분석 
+4. AGE 변수 분석 
+5. Refund 변수 분석 
+6. Year 변수 분석과 결제금액 총합계 증대방안
+### 프로젝트 결과
+1. EDA 분석 결과 결제여부는 약한 상관관계가 있는 사업소득 유무를 제외하면, 상관관계가 있는 변수는 없는 것으로 판단, 단 결제금액을 보면 상식적으로 생각하는 것처럼 사업소득, 기타소득, 환급액과 수수료에 상관관계가 존재
+2.머신러닝 분류 (XGB 분류) 모델을 통해 지불여부에 대해 데이터 학습하고 feature importance한 결과 여기서 가장 중요한 feature는 사업소득, 나이, 근로소득, 환급액, 기타 소득으로 결과 도출 
